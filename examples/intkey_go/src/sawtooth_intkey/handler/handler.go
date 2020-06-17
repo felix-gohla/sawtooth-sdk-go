@@ -49,7 +49,7 @@ func NewIntkeyHandler(namespace string) *IntkeyHandler {
 const (
 	MIN_VALUE       = 0
 	MAX_VALUE       = 4294967295
-	MAX_NAME_LENGTH = 20
+	MAX_NAME_LENGTH = 2049
 	FAMILY_NAME     = "intkey"
 )
 
