@@ -160,9 +160,6 @@ func (self *IntkeyHandler) Apply(request *processor_pb2.TpProcessRequest, contex
 	}
 
 	if verb == "set" {
-		if exists {
-			return &processor.InvalidTransactionError{Msg: "Cannot set existing value"}
-		}
 		newValue = value
 	}
 
